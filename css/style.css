@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*CABEZA*/
+header {
+  position: fixed;
+}
+/*FIN CABEZA*/
+
+/* BARRA DE NAVEGACION */
+#barra {
+    background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
+}
+/* FIN BARRA DE NAVEGACION */
+
+html{
+  scroll-behavior: smooth;
+}
+
+/*REDES SOCIALES
+.social{
+  position: fixed;
+  left: 0;
+  top: 30%;
+  z-index:2000;
+}
+
+.social ul{
+  list-style: none;
+}
+
+.social ul li a{ 
+  box-shadow: 0px 0px 5px #d299c2;
+  padding: 2px 2px;
+  text-decoration: none;
+}
+
+.social ul li a:hover{
+  padding: 2px 2px;
+  background: #d299c2;
+}
+/*FIN REDES SOCIALES*/
+
+
+/*INICIO*/
+section {
+  height: 650px;
+  background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
+}
+
+section h2 {
+  font-size: 50px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+section h6 {
+  text-align: center;
+}
+
+section p {
+  font-weight: 300;
+  margin-bottom: 15px;
+  text-align: justify;
+}
+
+section a{
+  display: inline-block;
+  padding: 7px 0;
+}
+
+#sec1 {
+  padding-top: 10%;
+}
+
+#sec2 {
+  padding-top: 10%;
+  background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
+}
+
+#sec3 {
+  padding-top: 10%;
+}
+
+#sec4 {
+  padding-top: 10%;
+  background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
+}
+
+#sec5 {
+  padding-top: 10%;
+}
+/*FIN INICIO*/
+
+/* GOTop */
+.go-top-container {
+  position: fixed;
+  bottom: 4rem;
+  right: 4rem;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: -1;
+}
+
+.go-top-buttom {
+  width: 0rem;
+  height: 0rem;
+  background: #ba84c2;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: .2x;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.go-top-buttom i {
+  position: absolute;
+  font-size: 1.7rem;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  color: #fff;
+  transition: .2s;
+}
+
+.show {
+  z-index: 10;
+}
+
+.show .go-top-buttom {
+  animation: popup .3s ease-in-out;
+  width: 6.6rem;
+  height: 6.6rem;
+  z-index: 11;
+}
+
+.show i {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+@keyframes popup {
+  0%{
+    width: 0rem;
+    height: 0rem;
+  }
+  50%{
+    width: 8rem;
+    height: 8rem;
+  }
+  100%{
+    width: 6.6rem;
+    height: 6.6rem;
+  }
+}
+
+/*PIE DE PAGINA*/
+
+footer {
+  
+}
+
+/*FIN PIE DE PAGINA*/
