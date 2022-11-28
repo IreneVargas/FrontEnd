@@ -9,15 +9,11 @@
 }
 
 /*CABEZA*/
-header {
-  position: fixed;
-}
+
 /*FIN CABEZA*/
 
 /* BARRA DE NAVEGACION */
-#barra{
-  background-color: #d299c2;
-}
+
 /* FIN BARRA DE NAVEGACION */
 
 html{
@@ -51,7 +47,6 @@ html{
 
 /*INICIO*/
 section {
-  height: 650px;
   background-image: linear-gradient(to top, #d299c2 0%, #fef9d7 100%);
 }
 
@@ -77,6 +72,10 @@ section a {
   padding: 7px 0;
 }
 
+table.center {
+  margin:auto;
+}
+
 #sec1 {
   padding-top: 10%;
 }
@@ -84,11 +83,6 @@ section a {
 #sec2 {
   padding-top: 10%;
   background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
-}
-
-#sec2 table.center {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 #sec2 table tr, td {
@@ -100,10 +94,7 @@ section a {
   padding-top: 10%;
 }
 
-#sec3 table {
-  margin-inline-start: 25%;
-}
-#sec3 table tr, td{
+#sec3 table tr, td {
   border: 2px dotted rgb(219, 4, 219);  
 }
 
@@ -112,13 +103,19 @@ section a {
   background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
 }
 
+#sec4 table tr, td {
+  border: 2px solid rgb(219, 4, 219);
+  border-collapse: collapse;
+}
+
 #sec5 {
   padding-top: 10%;
 }
 
 #sec6 {
   padding-top: 10%;
-  background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);
+  padding-bottom: 30%;
+  /*background-image: linear-gradient(to bottom, #d299c2 0%, #fef9d7 100%);*/
 }
 /*FIN INICIO*/
 
